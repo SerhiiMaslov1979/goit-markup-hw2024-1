@@ -1,0 +1,63 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node modules
+node_modules/
+
+# Сборки и артефакты
+dist/
+build/
+temp/
+out/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Тестовые отчеты
+coverage/
+*.lcov
+
+# Локальные файлы окружения
+.env
+.env.local
+.env.*.local
+.env.*.secret
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-workspace
+
+.yarn/*
+!.yarn/cache
+!.yarn/unplugged
+!.yarn/build-state.yml
+!.yarn/install-state.gz
+!.pnp.*
+
+# Mac
+**/.DS_Store
+
+# Windows
+**/Thumbs.db
+
+# Linux
+**/*.swp
+
+# Упаковочные артефакты
+*.zip
+*.tar.gz
+
+# Docker (если используется)
+docker-compose.override.yml
+docker-compose.debug.yml
+Dockerfile
+.dockerignore
+
+# Miscellaneous
+*.bak
+*.tmp
+*.old

@@ -1,0 +1,48 @@
+// {
+//     // Автосохранение файлов через задержку 1 секунда
+//     "files.autoSave": "afterDelay",
+//     "files.autoSaveDelay": 1000,
+  
+//     // Автоматическое форматирование кода при сохранении
+//     "editor.formatOnSave": true,
+  
+//     // Автоматическое форматирование при вставке кода
+//     "editor.formatOnPaste": true,
+  
+//     // Настройки для работы с табуляцией и отступами
+//     "editor.tabSize": 2,        // Размер табуляции в пробелах
+//     "editor.insertSpaces": true, // Использовать пробелы вместо табуляции
+  
+//     // Настройка ESlint (или Prettier) для JS/TS
+//     "eslint.autoFixOnSave": true,  // Автоматическая правка ошибок при сохранении (ESLint)
+//     "prettier.singleQuote": true,  // Использование одинарных кавычек (Prettier)
+//     "prettier.semi": false,        // Убрать точки с запятой (Prettier)
+    
+//     // Игнорирование больших файлов для форматтера
+//     "files.exclude": {
+//       "**/.git": true,
+//       "**/.DS_Store": true,
+//       "**/node_modules": true
+//     }
+//   }
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      "extensionName": ".min.css",
+      "format": "compressed",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**"
+  ],
+  "liveSassCompile.settings.generateMap": true,  // Можно изменить на false для продакшна
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions", "not dead"],  // Более точный автопрефиксинг
+  "liveServer.settings.port": 5501
+}
