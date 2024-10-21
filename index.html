@@ -2,28 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Студія</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./index.html"> <span>Web</span>Studio</a>
-        <a href="">Студія</a>
-        <a href="./portfolio.html">Портфоліо</a>
-        <a href="./contacts.html">Контакти</a>
+      <nav class="nav">
+        <a class="nav__link nav__link--logo" href="./index.html">
+          <span class="nav__logo--blue">Web</span>Studio</a
+        >
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="">Студія</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./contacts.html">Контакти</a>
+          </li>
+        </ul>
       </nav>
-      <ul>
+      <ul class="contacts__list">
         <li>
-          <a href="mailto:info@devstudio.com"
+          <a class="contacts__link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contacts__link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
@@ -38,29 +46,28 @@
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>
-              Ідейні міркування, і навіть початок
-              повсякденної роботи з формування позиції.
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
             </p>
           </li>
           <li>
             <h3>ПУНКТУАЛЬНІСТЬ</h3>
             <p>
-              Завдання організації, особливо рамки і місце
-              навчання кадрів тягне у себе.
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
             </p>
           </li>
           <li>
             <h3>ПЛАНУВАННЯ</h3>
             <p>
-              Так само консультація з широким активом
-              значною мірою зумовлює.
+              Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
             <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p>
-              Значимість цих проблем настільки очевидна, що
-              реалізація планових завдань.
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
             </p>
           </li>
         </ul>
@@ -70,21 +77,21 @@
         <ul>
           <li>
             <img
-              src="./images/1x/box1.jpg"
+              src="./images/1x/index/box1.jpg"
               alt="Людина працює за ком'ютером"
               width="370"
             />
           </li>
           <li>
             <img
-              src="./images/1x/box2.jpg"
+              src="./images/1x/index/box2.jpg"
               alt="Людина тримає телефон"
               width="370"
             />
           </li>
           <li>
             <img
-              src="./images/1x/box3.jpg"
+              src="./images/1x/index/box3.jpg"
               alt="Людина працює на планщеті"
               width="370"
             />
@@ -96,7 +103,7 @@
         <ul>
           <li>
             <img
-              src="./images/1x/igor.jpg"
+              src="./images/1x/index/igor.jpg"
               alt="Молодий чоловік в окулярах"
               width="270"
             />
@@ -107,7 +114,7 @@
           </li>
           <li>
             <img
-              src="./images/1x/olga.jpg"
+              src="./images/1x/index/olga.jpg"
               alt="Молода дівчина в окулярах"
               width="270"
             />
@@ -118,7 +125,7 @@
           </li>
           <li>
             <img
-              src="./images/1x/mikola.jpg"
+              src="./images/1x/index/mikola.jpg"
               alt="Молодий чоловік посміхається"
               width="270"
             />
@@ -129,7 +136,7 @@
           </li>
           <li>
             <img
-              src="./images/1x/mihaylo.jpg"
+              src="./images/1x/index/mihaylo.jpg"
               alt="Молодий чоловік в окулярах"
               width="270"
             />
@@ -153,9 +160,7 @@
           >
         </li>
         <li>
-          <a href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
           <a href="tel:+380961111111">+38 096 111 11 11</a>
