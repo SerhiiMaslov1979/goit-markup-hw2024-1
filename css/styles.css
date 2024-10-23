@@ -1,11 +1,14 @@
-/* Застосується до всіх абзаців на сторінці */
-/* p {
-  font-size: 24px;
+/* :root {
+  --primary-text-color: #757575;
 } */
-/* Застосується до всіх посилань на сторінці */
-/* a {
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background-color: #ffffff;
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+.link {
   text-decoration: none;
-} */
-/* header */
-/* main */
-/* footer */
+}
