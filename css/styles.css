@@ -5,6 +5,7 @@
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196f3;
+  --background-section-hero: #2f303a;
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
@@ -21,6 +22,22 @@ body {
 .contacts__link {
   text-decoration: none;
 }
+
+/* visually-hidden */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* header */
 .nav {
 }
@@ -85,3 +102,96 @@ body {
 /* .contacts__list .contacts__link:active {
   color: red;
 } */
+
+/* Hero */
+.hero {
+  background-color: var(--background-section-hero);
+}
+
+.hero__title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.hero__btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+/* hero btn hover */
+.hero__btn:hover,
+.hero__btn:focus {
+  background: var(--accent-color);
+}
+
+/* features */
+
+.features {
+}
+
+.features__list {
+}
+
+.features__item {
+}
+.features__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.features__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+/* activity */
+
+.activity {
+}
+.activity__list {
+}
+.list {
+}
+.activity__item {
+}
+
+/* workers */
+
+.workers {
+}
+.workers__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.workers-card__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.workers__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.workers__list {
+}
+.list {
+}
+.workers__item {
+}
