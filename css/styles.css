@@ -1,6 +1,11 @@
-/* :root {
+:root {
+  --logo1-color: #2196f3;
+  --logo2-color: #000000;
+  --logo3-color: #ffffff;
+  --title-text-color: #212121;
   --primary-text-color: #757575;
-} */
+  --accent-color: #2196f3;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   background-color: #ffffff;
@@ -9,6 +14,74 @@ body {
 .list {
   list-style: none;
 }
-.link {
+
+.nav__link {
   text-decoration: none;
 }
+.contacts__link {
+  text-decoration: none;
+}
+/* header */
+.nav {
+}
+/* Logo */
+
+.nav__link--logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--logo2-color);
+}
+
+.nav__logo--color {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--logo1-color);
+}
+
+/* header nav */
+.nav__list .nav__link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--title-text-color);
+}
+
+.contacts__list .contacts__link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--primary-text-color);
+}
+
+/* hover nav */
+
+.nav__list .nav__link:hover,
+.nav__list .nav__link:focus {
+  color: var(--accent-color);
+}
+
+/* .nav__list .nav__link:active {
+  color: red;
+} */
+
+.contacts__list .contacts__link:hover,
+.contacts__list .contacts__link:focus {
+  color: var(--accent-color);
+}
+
+/* .contacts__list .contacts__link:active {
+  color: red;
+} */
