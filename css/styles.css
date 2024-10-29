@@ -8,6 +8,12 @@
   --background-section-hero-footer: #2f303a;
   --activ-accent-color: #188ce8;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   background-color: #ffffff;
