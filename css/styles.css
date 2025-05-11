@@ -163,19 +163,13 @@ img {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
-  line-height: 30.52px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--logo3-color);
 }
 
 .footer__logo--color {
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: left;
   color: var(--logo1-color);
 }
 
@@ -239,24 +233,39 @@ img {
   background: var(--activ-accent-color);
 }
 
+/* Особливості */
+
 /* features */
 
-/* .features {
+.features {
+  padding: 94px 0;
+}
+
+.features__list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.features__item {
+  max-width: 270px;
+}
+
+/* .features-item:first-child {
+  margin-right: 0;
 } */
 
-/* .features__list {
-} */
-
-/* .features__item {
-} */
 .features__title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
+
 .features__text {
   font-size: 14px;
   font-weight: 400;
@@ -268,8 +277,9 @@ img {
 
 /* activity */
 
-/* .activity {
-} */
+.activity {
+  padding: 94px 0;
+}
 /* .activity__list {
 } */
 /* .list {
