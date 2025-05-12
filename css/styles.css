@@ -68,6 +68,11 @@ img {
   padding: 0 15px;
   /* outline: 1px solid tomato; */
 }
+
+.section {
+  padding: 94px 0;
+}
+
 /* visually-hidden */
 
 .visually-hidden {
@@ -238,7 +243,7 @@ img {
 /* features */
 
 .features {
-  padding: 94px 0;
+  padding-bottom: 0;
 }
 
 .features__list {
@@ -277,11 +282,13 @@ img {
 
 /* activity */
 
-.activity {
-  padding: 94px 0;
-}
-/* .activity__list {
+/* .activity {
 } */
+.activity__list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 /* .list {
 } */
 /* .activity__item {
@@ -294,11 +301,14 @@ img {
   text-align: center;
 
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 /* workers */
 
-/* .workers {
-} */
+.workers {
+  /* padding: 94px 0; */
+  background: #f5f4fa;
+}
 .workers__title {
   font-size: 36px;
   font-weight: 700;
@@ -306,6 +316,7 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 .workers-card__title {
   font-size: 16px;
@@ -314,6 +325,7 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 .workers__text {
   font-size: 16px;
@@ -322,12 +334,22 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
-/* .workers__list {
-} */
+.workers__list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.workers-card {
+  padding: 30px 0;
+}
 /* .list {
 } */
-/* .workers__item {
-} */
+.workers__item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 
 /* portfolio */
 /* btn */
