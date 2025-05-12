@@ -164,6 +164,11 @@ img {
 
 /* logo footer */
 
+.footer {
+  background-color: var(--background-section-hero-footer);
+  padding: 60px 0;
+}
+
 .footer__logo {
   font-family: Raleway;
   font-size: 26px;
@@ -199,6 +204,12 @@ img {
 .footer__list .link:hover,
 .footer__list .link:focus {
   color: var(--accent-color);
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
 /* Hero */
@@ -249,7 +260,6 @@ img {
 .features__list {
   display: flex;
   gap: 30px;
-  justify-content: center;
 }
 
 .features__item {
@@ -286,7 +296,6 @@ img {
 } */
 .activity__list {
   display: flex;
-  justify-content: center;
   gap: 30px;
 }
 /* .list {
@@ -306,7 +315,6 @@ img {
 /* workers */
 
 .workers {
-  /* padding: 94px 0; */
   background: #f5f4fa;
 }
 .workers__title {
@@ -336,7 +344,6 @@ img {
 }
 .workers__list {
   display: flex;
-  justify-content: center;
   gap: 30px;
 }
 .workers-card {
