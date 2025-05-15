@@ -362,14 +362,14 @@ img {
 /* work-btn section */
 
 .work-btn {
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
   margin-bottom: 34px;
 }
 .work-btn__list {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .work-btn__item {
   display: inline-block;
@@ -388,16 +388,6 @@ img {
   border-color: #f5f4fa;
 }
 
-.work-btn__text {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: var(--primary-text-color);
-}
-
 .work-btn__btn:hover,
 .work-btn__btn:focus {
   color: #ffffff;
@@ -405,10 +395,10 @@ img {
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08);
 }
 /* linkwork section */
-
+/* 
 .linkwork {
   padding-top: 0;
-}
+} */
 
 .linkwork__list {
   display: flex;
@@ -431,7 +421,7 @@ img {
   margin: 20px 24px 4px;
 }
 
-.work-btn__text {
+.linkwork__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
