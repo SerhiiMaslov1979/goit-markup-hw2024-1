@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -17,167 +17,175 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav class="nav">
+    <header class="page-header">
+      <div class="container flex">
         <a class="nav__link--logo link" href="./index.html">
           <span class="nav__logo--color">Web</span>Studio</a
         >
-        <ul class="nav__list list">
-          <li class="nav__item">
-            <a class="nav__link link" href="./index.html">Студія</a>
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link" href="./index.html">Студія</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Портфоліо</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="./contacts.html">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts__list list">
+          <li>
+            <a class="contacts__link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="nav__item">
-            <a class="nav__link link" href="">Портфоліо</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link link" href="./contacts.html">Контакти</a>
+          <li>
+            <a class="contacts__link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="contacts__list list">
-        <li>
-          <a class="contacts__link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contacts__link link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="work-btn">
-        <ul class="work-btn__list list">
-          <li class="work-btn__item">
-            <button class="linkwork__btn" type="button">Усі</button>
-          </li>
-          <li class="work-btn__item">
-            <button class="linkwork__btn" type="button">Веб-сайти</button>
-          </li>
-          <li class="work-btn__item">
-            <button class="linkwork__btn" type="button">Додатки</button>
-          </li>
-          <li class="work-btn__item">
-            <button class="linkwork__btn" type="button">Дизайн</button>
-          </li>
-          <li class="work-btn__item">
-            <button class="linkwork__btn" type="button">Маркетинг</button>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="work-btn__list list">
+            <li class="work-btn__item">
+              <button class="linkwork__btn" type="button">Усі</button>
+            </li>
+            <li class="work-btn__item">
+              <button class="linkwork__btn" type="button">Веб-сайти</button>
+            </li>
+            <li class="work-btn__item">
+              <button class="linkwork__btn" type="button">Додатки</button>
+            </li>
+            <li class="work-btn__item">
+              <button class="linkwork__btn" type="button">Дизайн</button>
+            </li>
+            <li class="work-btn__item">
+              <button class="linkwork__btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="linkwork">
-        <ul class="linkwork__list list">
-          <li class="linkwork__item">
-            <img
-              src="./images/1x/portfolio/portfolio1_1x.jpg"
-              alt=""
-              width="370"
-            />
-            <h3 class="linkwork__title">Технокряк</h3>
-            <p class="work-btn__text">Веб-сайт</p>
-          </li>
-          <li class="linkwork__item">
-            <img
-              src="./images/1x/portfolio/portfolio2_1x.jpg"
-              alt=""
-              width="370"
-            />
-            <h3 class="linkwork__title">Постер New Orlean vs Golden Star</h3>
-            <p class="work-btn__text">Дизайн</p>
-          </li>
-          <li class="linkwork__item">
-            <img
-              src="./images/1x/portfolio/portfolio3_1x.jpg"
-              alt=""
-              width="370"
-            />
-            <h3 class="linkwork__title">Ресторан Seafood</h3>
-            <p class="work-btn__text">Додаток</p>
-          </li>
-          <li class="linkwork__item">
-            <img
-              src="./images/1x/portfolio/portfolio4_1x.jpg"
-              alt=""
-              width="370"
-            />
-            <h3 class="linkwork__title">Проєкт Prime</h3>
-            <p class="work-btn__text">Маркетинг</p>
-          </li>
-          <li class="linkwork__item">
-            <img
-              src="./images/1x/portfolio/portfolio5_1x.jpg"
-              alt=""
-              width="370"
-            />
-            <h3 class="linkwork__title">Проєкт Boxes</h3>
-            <p class="work-btn__text">Додаток</p>
-          </li>
-          <li class="linkwork__item">
-            <img
-              src="./images/1x/portfolio/portfolio6_1x.jpg"
-              alt=""
-              width="370"
-            />
-            <h3 class="linkwork__title">Inspiration has no Borders</h3>
-            <p class="work-btn__text">Веб-сайт</p>
-          </li>
-          <li class="linkwork__item">
-            <img
-              src="./images/1x/portfolio/portfolio7_1x.jpg"
-              alt=""
-              width="370"
-            />
-            <h3 class="linkwork__title">Видання Limited Edition</h3>
-            <p class="work-btn__text">Дизайн</p>
-          </li>
-          <li class="linkwork__item">
-            <img
-              src="./images/1x/portfolio/portfolio8_1x.jpg"
-              alt=""
-              width="370"
-            />
-            <h3 class="linkwork__title">Проєкт LAB</h3>
-            <p class="work-btn__text">Маркетинг</p>
-          </li>
-          <li class="linkwork__item">
-            <img
-              src="./images/1x/portfolio/portfolio9_1x.jpg"
-              alt=""
-              width="370"
-            />
-            <h3 class="linkwork__title">Growing Business</h3>
-            <p class="work-btn__text">Додаток</p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="linkwork__list list">
+            <li class="linkwork__item">
+              <img
+                src="./images/1x/portfolio/portfolio1_1x.jpg"
+                alt=""
+                width="370"
+              />
+              <h3 class="linkwork__title">Технокряк</h3>
+              <p class="work-btn__text">Веб-сайт</p>
+            </li>
+            <li class="linkwork__item">
+              <img
+                src="./images/1x/portfolio/portfolio2_1x.jpg"
+                alt=""
+                width="370"
+              />
+              <h3 class="linkwork__title">Постер New Orlean vs Golden Star</h3>
+              <p class="work-btn__text">Дизайн</p>
+            </li>
+            <li class="linkwork__item">
+              <img
+                src="./images/1x/portfolio/portfolio3_1x.jpg"
+                alt=""
+                width="370"
+              />
+              <h3 class="linkwork__title">Ресторан Seafood</h3>
+              <p class="work-btn__text">Додаток</p>
+            </li>
+            <li class="linkwork__item">
+              <img
+                src="./images/1x/portfolio/portfolio4_1x.jpg"
+                alt=""
+                width="370"
+              />
+              <h3 class="linkwork__title">Проєкт Prime</h3>
+              <p class="work-btn__text">Маркетинг</p>
+            </li>
+            <li class="linkwork__item">
+              <img
+                src="./images/1x/portfolio/portfolio5_1x.jpg"
+                alt=""
+                width="370"
+              />
+              <h3 class="linkwork__title">Проєкт Boxes</h3>
+              <p class="work-btn__text">Додаток</p>
+            </li>
+            <li class="linkwork__item">
+              <img
+                src="./images/1x/portfolio/portfolio6_1x.jpg"
+                alt=""
+                width="370"
+              />
+              <h3 class="linkwork__title">Inspiration has no Borders</h3>
+              <p class="work-btn__text">Веб-сайт</p>
+            </li>
+            <li class="linkwork__item">
+              <img
+                src="./images/1x/portfolio/portfolio7_1x.jpg"
+                alt=""
+                width="370"
+              />
+              <h3 class="linkwork__title">Видання Limited Edition</h3>
+              <p class="work-btn__text">Дизайн</p>
+            </li>
+            <li class="linkwork__item">
+              <img
+                src="./images/1x/portfolio/portfolio8_1x.jpg"
+                alt=""
+                width="370"
+              />
+              <h3 class="linkwork__title">Проєкт LAB</h3>
+              <p class="work-btn__text">Маркетинг</p>
+            </li>
+            <li class="linkwork__item">
+              <img
+                src="./images/1x/portfolio/portfolio9_1x.jpg"
+                alt=""
+                width="370"
+              />
+              <h3 class="linkwork__title">Growing Business</h3>
+              <p class="work-btn__text">Додаток</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="footer__logo link" href="./index.html">
-        <span class="footer__logo--color">Web</span>Studio</a
-      >
-      <ul class="footer__list list">
-        <li class="item">
-          <a
-            class="footer__addresses link"
-            href="https://goo.gl/maps/cFj6b1vBH22CHA6d8"
-            target="_blank"
-            rel="noreferrer noopener"
-            >м. Київ, пр-т Лесі Українки, 26</a
-          >
-        </li>
-        <li class="item">
-          <a class="footer__contact link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="item">
-          <a class="footer__contact link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      <div class="container">
+        <a class="footer__logo link" href="./index.html">
+          <span class="footer__logo--color">Web</span>Studio</a
+        >
+        <ul class="footer__list list">
+          <li class="item">
+            <a
+              class="footer__addresses link"
+              href="https://goo.gl/maps/cFj6b1vBH22CHA6d8"
+              target="_blank"
+              rel="noreferrer noopener"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li class="item">
+            <a class="footer__contact link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="footer__contact link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

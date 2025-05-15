@@ -387,3 +387,14 @@ img {
   text-align: left;
   color: var(--primary-text-color);
 }
+
+.work-btn__list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.linkwork__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
